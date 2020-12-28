@@ -33,7 +33,7 @@ import mindustry.world.meta.*;
 
 import static mindustry.type.ItemStack.with;
 
-public class NuclBlocks implements ContentList
+public class NuclBlocks extends Blocks implements ContentList
 {
     public static Block
 
@@ -81,7 +81,7 @@ public class NuclBlocks implements ContentList
     public void load()
     {
         //Override
-        Blocks.rtgGenerator.health = 1;
+        rtgGenerator.health = 1;
 
         //Mindustry Content
         /* environment */
