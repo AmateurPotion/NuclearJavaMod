@@ -1,0 +1,8 @@
+{
+  "name": "NuclearJava",
+  "displayName": "[green]Nuclear Mod [white]for [orange]Java",
+  "author": "[yellow]Namedo",
+  "main": "NuclearMod.core.NuclearJavaMod",
+  "version": 10001,
+  "minGameVersion": 20416
+  }
