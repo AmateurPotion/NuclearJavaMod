@@ -15,6 +15,7 @@ public class NuclearJavaMod extends Mod {
         Events.on(ClientLoadEvent.class, e -> {
             // 클라이언트 로드 이벤트
             new Updater().checkUpdate(); // 업데이트 메소드
+            new NucContentLoader().load(); // 컨텐츠 로딩
         });
 
         Events.on(WorldLoadEvent.class, e -> {
